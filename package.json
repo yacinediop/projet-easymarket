@@ -6,7 +6,8 @@
   "scripts": {
     
     "dev": "vite",
-    "build": "[my-framework] build --output public",
+    // "build": "[my-framework] build --output public",
+    "build": "npm run build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "start": "react-scripts start",
     "preview": "vite preview"
